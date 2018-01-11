@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GTMYang/GTMUIControls.git", :tag => s.version }
   s.source_files = 'GTMUIControls/*.{h,swift}'
-  s.resources    = "GTMUIControls/*.xcassets"
 
   s.ios.deployment_target = '8.0'
   s.frameworks = 'UIKit','Foundation'

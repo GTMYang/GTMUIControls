@@ -13,32 +13,37 @@ GTMUIControls
 `GTMUIControls` swift 封装的一些UI小控件，你可能用得上。对你有用处的话请给个 Star
 
 # UILine
-![UILine](https://github.com/GTMYang/GTMUIControls/Screenshots/UILine.png)
+![UILine](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/UILine.png)
 
 
 # UICowButton
 
-![UICowButton](https://github.com/GTMYang/GTMUIControls/Screenshots/UICowButton.png)
+![UICowButton](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/UICowButton.png)
 
 
 # CustomSwitch
 
+![CustomSwitch](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/CustomSwitch.png)
 
 
 # UICheckBox
 
+![UICheckBox](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/UICheckBox.png)
 
 
 # UIHead
 
+![UIHead](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/UIHead.png)
 
 
 # PositionableButton
 
+![PositionableButton](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/PositionableButton.png)
 
 
 # UIGradientLabel
 
+![UIGradientLabel](https://github.com/GTMYang/GTMUIControls/blob/master/Screenshots/UIGradientLabel.png)
 
 
 # Example

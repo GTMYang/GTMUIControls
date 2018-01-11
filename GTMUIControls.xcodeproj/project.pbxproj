@@ -7,28 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26B0BC9A2004895B00CB7EA4 /* GTMUIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */; };
-		26B0BC9F2004895B00CB7EA4 /* GTMUIControlsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BC9E2004895B00CB7EA4 /* GTMUIControlsTests.swift */; };
-		26B0BCA12004895B00CB7EA4 /* GTMUIControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 26B0BC932004895B00CB7EA4 /* GTMUIControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150A8D53370A9EA159C94AEF /* Pods_GTMUIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515D2D20E9C314379BF7794 /* Pods_GTMUIControls.framework */; };
+		265C7D7A2006F65A00D35205 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 265C7D772006F65900D35205 /* LICENSE */; };
+		265C7D7B2006F65A00D35205 /* GTMUIControls.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 265C7D782006F65900D35205 /* GTMUIControls.podspec */; };
+		265C7D7C2006F65A00D35205 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 265C7D792006F65900D35205 /* README.md */; };
+		265C7D7D2006FB6E00D35205 /* GTMUIControls.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */; };
+		265C7D7E2006FB6E00D35205 /* GTMUIControls.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		26B0BCAD20048C7800CB7EA4 /* UIHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCAC20048C7800CB7EA4 /* UIHead.swift */; };
+		26B0BCAF20048D4600CB7EA4 /* PositionableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCAE20048D4600CB7EA4 /* PositionableButton.swift */; };
+		26B0BCB120048E0000CB7EA4 /* UICheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCB020048E0000CB7EA4 /* UICheckBox.swift */; };
+		26B0BCB32004A11400CB7EA4 /* UIGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCB22004A11400CB7EA4 /* UIGradientLabel.swift */; };
+		26B0BCB52004A18D00CB7EA4 /* UICowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCB42004A18D00CB7EA4 /* UICowButton.swift */; };
+		26B0BCB72004A1DB00CB7EA4 /* UILine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCB62004A1DB00CB7EA4 /* UILine.swift */; };
+		26B0BCB92004A24600CB7EA4 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCB82004A24600CB7EA4 /* CustomSwitch.swift */; };
+		26B0BCC12004A42500CB7EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCC02004A42500CB7EA4 /* AppDelegate.swift */; };
+		26B0BCC32004A42500CB7EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCC22004A42500CB7EA4 /* ViewController.swift */; };
+		26B0BCC62004A42500CB7EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCC42004A42500CB7EA4 /* Main.storyboard */; };
+		26B0BCC82004A42500CB7EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCC72004A42500CB7EA4 /* Assets.xcassets */; };
+		26B0BCCB2004A42500CB7EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCC92004A42500CB7EA4 /* LaunchScreen.storyboard */; };
+		26B0BCD62004A42500CB7EA4 /* ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCD52004A42500CB7EA4 /* ExampleTests.swift */; };
+		26B0BCE72004ACCA00CB7EA4 /* UIGradientLabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCE52004ACCA00CB7EA4 /* UIGradientLabelExample.swift */; };
+		26B0BCE82004ACCA00CB7EA4 /* UIGradientLabelExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCE62004ACCA00CB7EA4 /* UIGradientLabelExample.xib */; };
+		26B0BCEB2004ACE800CB7EA4 /* PositionableButtonExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCE92004ACE800CB7EA4 /* PositionableButtonExap.swift */; };
+		26B0BCEC2004ACE800CB7EA4 /* PositionableButtonExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCEA2004ACE800CB7EA4 /* PositionableButtonExap.xib */; };
+		26B0BCEF2004ACFF00CB7EA4 /* UIHeadExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCED2004ACFF00CB7EA4 /* UIHeadExap.swift */; };
+		26B0BCF02004ACFF00CB7EA4 /* UIHeadExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCEE2004ACFF00CB7EA4 /* UIHeadExap.xib */; };
+		26B0BCF32004AD1300CB7EA4 /* UICheckBoxExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCF12004AD1300CB7EA4 /* UICheckBoxExap.swift */; };
+		26B0BCF42004AD1300CB7EA4 /* UICheckBoxExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCF22004AD1300CB7EA4 /* UICheckBoxExap.xib */; };
+		26B0BCF72004AD2A00CB7EA4 /* CustomSwitchExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCF52004AD2A00CB7EA4 /* CustomSwitchExap.swift */; };
+		26B0BCF82004AD2A00CB7EA4 /* CustomSwitchExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCF62004AD2A00CB7EA4 /* CustomSwitchExap.xib */; };
+		26B0BCFB2004AD3B00CB7EA4 /* UICowButtonExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCF92004AD3B00CB7EA4 /* UICowButtonExap.swift */; };
+		26B0BCFC2004AD3B00CB7EA4 /* UICowButtonExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCFA2004AD3B00CB7EA4 /* UICowButtonExap.xib */; };
+		26B0BCFF2004AD4900CB7EA4 /* UILineExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCFD2004AD4900CB7EA4 /* UILineExap.swift */; };
+		26B0BD002004AD4900CB7EA4 /* UILineExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCFE2004AD4900CB7EA4 /* UILineExap.xib */; };
+		F94BED3B1499DD15E60FAD7A /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD16B97DE2E77217FF99482 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26B0BC9B2004895B00CB7EA4 /* PBXContainerItemProxy */ = {
+		265C7D7F2006FB6E00D35205 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 26B0BC872004895A00CB7EA4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 26B0BC8F2004895A00CB7EA4;
 			remoteInfo = GTMUIControls;
 		};
+		26B0BCD22004A42500CB7EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26B0BC872004895A00CB7EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26B0BCBD2004A42500CB7EA4;
+			remoteInfo = Example;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		265C7D812006FB6F00D35205 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				265C7D7E2006FB6E00D35205 /* GTMUIControls.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		263D6A602005A1930009A9B8 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		265C7D772006F65900D35205 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		265C7D782006F65900D35205 /* GTMUIControls.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GTMUIControls.podspec; sourceTree = "<group>"; };
+		265C7D792006F65900D35205 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		265C7D832007033D00D35205 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTMUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B0BC932004895B00CB7EA4 /* GTMUIControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMUIControls.h; sourceTree = "<group>"; };
 		26B0BC942004895B00CB7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26B0BC992004895B00CB7EA4 /* GTMUIControlsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTMUIControlsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26B0BC9E2004895B00CB7EA4 /* GTMUIControlsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTMUIControlsTests.swift; sourceTree = "<group>"; };
-		26B0BCA02004895B00CB7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B0BCAC20048C7800CB7EA4 /* UIHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHead.swift; sourceTree = "<group>"; };
+		26B0BCAE20048D4600CB7EA4 /* PositionableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionableButton.swift; sourceTree = "<group>"; };
+		26B0BCB020048E0000CB7EA4 /* UICheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICheckBox.swift; sourceTree = "<group>"; };
+		26B0BCB22004A11400CB7EA4 /* UIGradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientLabel.swift; sourceTree = "<group>"; };
+		26B0BCB42004A18D00CB7EA4 /* UICowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICowButton.swift; sourceTree = "<group>"; };
+		26B0BCB62004A1DB00CB7EA4 /* UILine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILine.swift; sourceTree = "<group>"; };
+		26B0BCB82004A24600CB7EA4 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		26B0BCBE2004A42500CB7EA4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0BCC02004A42500CB7EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26B0BCC22004A42500CB7EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26B0BCC52004A42500CB7EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26B0BCC72004A42500CB7EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26B0BCCA2004A42500CB7EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26B0BCCC2004A42500CB7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B0BCD12004A42500CB7EA4 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B0BCD52004A42500CB7EA4 /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		26B0BCD72004A42500CB7EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26B0BCE52004ACCA00CB7EA4 /* UIGradientLabelExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientLabelExample.swift; sourceTree = "<group>"; };
+		26B0BCE62004ACCA00CB7EA4 /* UIGradientLabelExample.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIGradientLabelExample.xib; sourceTree = "<group>"; };
+		26B0BCE92004ACE800CB7EA4 /* PositionableButtonExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionableButtonExap.swift; sourceTree = "<group>"; };
+		26B0BCEA2004ACE800CB7EA4 /* PositionableButtonExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PositionableButtonExap.xib; sourceTree = "<group>"; };
+		26B0BCED2004ACFF00CB7EA4 /* UIHeadExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHeadExap.swift; sourceTree = "<group>"; };
+		26B0BCEE2004ACFF00CB7EA4 /* UIHeadExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIHeadExap.xib; sourceTree = "<group>"; };
+		26B0BCF12004AD1300CB7EA4 /* UICheckBoxExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICheckBoxExap.swift; sourceTree = "<group>"; };
+		26B0BCF22004AD1300CB7EA4 /* UICheckBoxExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICheckBoxExap.xib; sourceTree = "<group>"; };
+		26B0BCF52004AD2A00CB7EA4 /* CustomSwitchExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchExap.swift; sourceTree = "<group>"; };
+		26B0BCF62004AD2A00CB7EA4 /* CustomSwitchExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSwitchExap.xib; sourceTree = "<group>"; };
+		26B0BCF92004AD3B00CB7EA4 /* UICowButtonExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICowButtonExap.swift; sourceTree = "<group>"; };
+		26B0BCFA2004AD3B00CB7EA4 /* UICowButtonExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICowButtonExap.xib; sourceTree = "<group>"; };
+		26B0BCFD2004AD4900CB7EA4 /* UILineExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILineExap.swift; sourceTree = "<group>"; };
+		26B0BCFE2004AD4900CB7EA4 /* UILineExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UILineExap.xib; sourceTree = "<group>"; };
+		2A10BA40D67317D72B49BA21 /* Pods-GTMUIControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMUIControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTMUIControls/Pods-GTMUIControls.debug.xcconfig"; sourceTree = "<group>"; };
+		4FB1E7C65B7A40C443628D1F /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		756859AF4AB0362A0651E48A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8FCE9D8A2665366B517ACFBE /* Pods-GTMUIControls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMUIControls.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTMUIControls/Pods-GTMUIControls.release.xcconfig"; sourceTree = "<group>"; };
+		CBD16B97DE2E77217FF99482 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E515D2D20E9C314379BF7794 /* Pods_GTMUIControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTMUIControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,34 +126,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150A8D53370A9EA159C94AEF /* Pods_GTMUIControls.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B0BC962004895B00CB7EA4 /* Frameworks */ = {
+		26B0BCBB2004A42500CB7EA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B0BC9A2004895B00CB7EA4 /* GTMUIControls.framework in Frameworks */,
+				F94BED3B1499DD15E60FAD7A /* Pods_Example.framework in Frameworks */,
+				265C7D7D2006FB6E00D35205 /* GTMUIControls.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BCCE2004A42500CB7EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		263D6A5120059A0B0009A9B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				265C7D832007033D00D35205 /* SnapKit.framework */,
+				263D6A602005A1930009A9B8 /* AudioUnit.framework */,
+				CBD16B97DE2E77217FF99482 /* Pods_Example.framework */,
+				E515D2D20E9C314379BF7794 /* Pods_GTMUIControls.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		26B0BC862004895A00CB7EA4 = {
 			isa = PBXGroup;
 			children = (
+				265C7D782006F65900D35205 /* GTMUIControls.podspec */,
+				265C7D772006F65900D35205 /* LICENSE */,
+				265C7D792006F65900D35205 /* README.md */,
 				26B0BC922004895B00CB7EA4 /* GTMUIControls */,
-				26B0BC9D2004895B00CB7EA4 /* GTMUIControlsTests */,
+				26B0BCBF2004A42500CB7EA4 /* Example */,
+				26B0BCD42004A42500CB7EA4 /* ExampleTests */,
 				26B0BC912004895B00CB7EA4 /* Products */,
+				263D6A5120059A0B0009A9B8 /* Frameworks */,
+				A6C404B03BC2272A766A0885 /* Pods */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
 		};
 		26B0BC912004895B00CB7EA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */,
-				26B0BC992004895B00CB7EA4 /* GTMUIControlsTests.xctest */,
+				26B0BCBE2004A42500CB7EA4 /* Example.app */,
+				26B0BCD12004A42500CB7EA4 /* ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,19 +190,119 @@
 		26B0BC922004895B00CB7EA4 /* GTMUIControls */ = {
 			isa = PBXGroup;
 			children = (
-				26B0BC932004895B00CB7EA4 /* GTMUIControls.h */,
+				26B0BCB62004A1DB00CB7EA4 /* UILine.swift */,
+				26B0BCB42004A18D00CB7EA4 /* UICowButton.swift */,
+				26B0BCB82004A24600CB7EA4 /* CustomSwitch.swift */,
+				26B0BCB020048E0000CB7EA4 /* UICheckBox.swift */,
+				26B0BCAC20048C7800CB7EA4 /* UIHead.swift */,
+				26B0BCAE20048D4600CB7EA4 /* PositionableButton.swift */,
+				26B0BCB22004A11400CB7EA4 /* UIGradientLabel.swift */,
 				26B0BC942004895B00CB7EA4 /* Info.plist */,
 			);
 			path = GTMUIControls;
 			sourceTree = "<group>";
 		};
-		26B0BC9D2004895B00CB7EA4 /* GTMUIControlsTests */ = {
+		26B0BCBF2004A42500CB7EA4 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				26B0BC9E2004895B00CB7EA4 /* GTMUIControlsTests.swift */,
-				26B0BCA02004895B00CB7EA4 /* Info.plist */,
+				26B0BCE42004ACA800CB7EA4 /* UIGradientLabel */,
+				26B0BCE32004AC9400CB7EA4 /* PositionableButton */,
+				26B0BCE22004AC8C00CB7EA4 /* UIHead */,
+				26B0BCE12004AC8300CB7EA4 /* UICheckBox */,
+				26B0BCE02004AC7700CB7EA4 /* CustomSwitch */,
+				26B0BCDF2004AC6700CB7EA4 /* UICowButton */,
+				26B0BCDE2004AC5E00CB7EA4 /* UILine */,
+				26B0BCC02004A42500CB7EA4 /* AppDelegate.swift */,
+				26B0BCC22004A42500CB7EA4 /* ViewController.swift */,
+				26B0BCC42004A42500CB7EA4 /* Main.storyboard */,
+				26B0BCC72004A42500CB7EA4 /* Assets.xcassets */,
+				26B0BCC92004A42500CB7EA4 /* LaunchScreen.storyboard */,
+				26B0BCCC2004A42500CB7EA4 /* Info.plist */,
 			);
-			path = GTMUIControlsTests;
+			path = Example;
+			sourceTree = "<group>";
+		};
+		26B0BCD42004A42500CB7EA4 /* ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCD52004A42500CB7EA4 /* ExampleTests.swift */,
+				26B0BCD72004A42500CB7EA4 /* Info.plist */,
+			);
+			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		26B0BCDE2004AC5E00CB7EA4 /* UILine */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCFD2004AD4900CB7EA4 /* UILineExap.swift */,
+				26B0BCFE2004AD4900CB7EA4 /* UILineExap.xib */,
+			);
+			path = UILine;
+			sourceTree = "<group>";
+		};
+		26B0BCDF2004AC6700CB7EA4 /* UICowButton */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCF92004AD3B00CB7EA4 /* UICowButtonExap.swift */,
+				26B0BCFA2004AD3B00CB7EA4 /* UICowButtonExap.xib */,
+			);
+			path = UICowButton;
+			sourceTree = "<group>";
+		};
+		26B0BCE02004AC7700CB7EA4 /* CustomSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCF52004AD2A00CB7EA4 /* CustomSwitchExap.swift */,
+				26B0BCF62004AD2A00CB7EA4 /* CustomSwitchExap.xib */,
+			);
+			path = CustomSwitch;
+			sourceTree = "<group>";
+		};
+		26B0BCE12004AC8300CB7EA4 /* UICheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCF12004AD1300CB7EA4 /* UICheckBoxExap.swift */,
+				26B0BCF22004AD1300CB7EA4 /* UICheckBoxExap.xib */,
+			);
+			path = UICheckBox;
+			sourceTree = "<group>";
+		};
+		26B0BCE22004AC8C00CB7EA4 /* UIHead */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCED2004ACFF00CB7EA4 /* UIHeadExap.swift */,
+				26B0BCEE2004ACFF00CB7EA4 /* UIHeadExap.xib */,
+			);
+			path = UIHead;
+			sourceTree = "<group>";
+		};
+		26B0BCE32004AC9400CB7EA4 /* PositionableButton */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCE92004ACE800CB7EA4 /* PositionableButtonExap.swift */,
+				26B0BCEA2004ACE800CB7EA4 /* PositionableButtonExap.xib */,
+			);
+			path = PositionableButton;
+			sourceTree = "<group>";
+		};
+		26B0BCE42004ACA800CB7EA4 /* UIGradientLabel */ = {
+			isa = PBXGroup;
+			children = (
+				26B0BCE52004ACCA00CB7EA4 /* UIGradientLabelExample.swift */,
+				26B0BCE62004ACCA00CB7EA4 /* UIGradientLabelExample.xib */,
+			);
+			path = UIGradientLabel;
+			sourceTree = "<group>";
+		};
+		A6C404B03BC2272A766A0885 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				756859AF4AB0362A0651E48A /* Pods-Example.debug.xcconfig */,
+				4FB1E7C65B7A40C443628D1F /* Pods-Example.release.xcconfig */,
+				2A10BA40D67317D72B49BA21 /* Pods-GTMUIControls.debug.xcconfig */,
+				8FCE9D8A2665366B517ACFBE /* Pods-GTMUIControls.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +312,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B0BCA12004895B00CB7EA4 /* GTMUIControls.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,10 +322,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 26B0BCA42004895B00CB7EA4 /* Build configuration list for PBXNativeTarget "GTMUIControls" */;
 			buildPhases = (
+				B65EFF2436E536267690543A /* [CP] Check Pods Manifest.lock */,
 				26B0BC8B2004895A00CB7EA4 /* Sources */,
 				26B0BC8C2004895A00CB7EA4 /* Frameworks */,
 				26B0BC8D2004895A00CB7EA4 /* Headers */,
 				26B0BC8E2004895A00CB7EA4 /* Resources */,
+				AC92AB30B4BA02EDCBB21EF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -118,22 +338,44 @@
 			productReference = 26B0BC902004895A00CB7EA4 /* GTMUIControls.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		26B0BC982004895B00CB7EA4 /* GTMUIControlsTests */ = {
+		26B0BCBD2004A42500CB7EA4 /* Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26B0BCA72004895B00CB7EA4 /* Build configuration list for PBXNativeTarget "GTMUIControlsTests" */;
+			buildConfigurationList = 26B0BCD82004A42500CB7EA4 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				26B0BC952004895B00CB7EA4 /* Sources */,
-				26B0BC962004895B00CB7EA4 /* Frameworks */,
-				26B0BC972004895B00CB7EA4 /* Resources */,
+				1973D7FE5D189C1C95CA69C8 /* [CP] Check Pods Manifest.lock */,
+				26B0BCBA2004A42500CB7EA4 /* Sources */,
+				26B0BCBB2004A42500CB7EA4 /* Frameworks */,
+				26B0BCBC2004A42500CB7EA4 /* Resources */,
+				F7874DA490B0A380D2371607 /* [CP] Embed Pods Frameworks */,
+				181DDBE40997217C3195575F /* [CP] Copy Pods Resources */,
+				265C7D812006FB6F00D35205 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				26B0BC9C2004895B00CB7EA4 /* PBXTargetDependency */,
+				265C7D802006FB6E00D35205 /* PBXTargetDependency */,
 			);
-			name = GTMUIControlsTests;
-			productName = GTMUIControlsTests;
-			productReference = 26B0BC992004895B00CB7EA4 /* GTMUIControlsTests.xctest */;
+			name = Example;
+			productName = Example;
+			productReference = 26B0BCBE2004A42500CB7EA4 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26B0BCD02004A42500CB7EA4 /* ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26B0BCDB2004A42500CB7EA4 /* Build configuration list for PBXNativeTarget "ExampleTests" */;
+			buildPhases = (
+				26B0BCCD2004A42500CB7EA4 /* Sources */,
+				26B0BCCE2004A42500CB7EA4 /* Frameworks */,
+				26B0BCCF2004A42500CB7EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26B0BCD32004A42500CB7EA4 /* PBXTargetDependency */,
+			);
+			name = ExampleTests;
+			productName = ExampleTests;
+			productReference = 26B0BCD12004A42500CB7EA4 /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,11 +390,17 @@
 				TargetAttributes = {
 					26B0BC8F2004895A00CB7EA4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
-					26B0BC982004895B00CB7EA4 = {
+					26B0BCBD2004A42500CB7EA4 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+					};
+					26B0BCD02004A42500CB7EA4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 26B0BCBD2004A42500CB7EA4;
 					};
 				};
 			};
@@ -162,6 +410,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 26B0BC862004895A00CB7EA4;
 			productRefGroup = 26B0BC912004895B00CB7EA4 /* Products */;
@@ -169,7 +418,8 @@
 			projectRoot = "";
 			targets = (
 				26B0BC8F2004895A00CB7EA4 /* GTMUIControls */,
-				26B0BC982004895B00CB7EA4 /* GTMUIControlsTests */,
+				26B0BCBD2004A42500CB7EA4 /* Example */,
+				26B0BCD02004A42500CB7EA4 /* ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -179,10 +429,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				265C7D7C2006F65A00D35205 /* README.md in Resources */,
+				265C7D7A2006F65A00D35205 /* LICENSE in Resources */,
+				265C7D7B2006F65A00D35205 /* GTMUIControls.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B0BC972004895B00CB7EA4 /* Resources */ = {
+		26B0BCBC2004A42500CB7EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0BCF82004AD2A00CB7EA4 /* CustomSwitchExap.xib in Resources */,
+				26B0BCCB2004A42500CB7EA4 /* LaunchScreen.storyboard in Resources */,
+				26B0BCC82004A42500CB7EA4 /* Assets.xcassets in Resources */,
+				26B0BCC62004A42500CB7EA4 /* Main.storyboard in Resources */,
+				26B0BCFC2004AD3B00CB7EA4 /* UICowButtonExap.xib in Resources */,
+				26B0BD002004AD4900CB7EA4 /* UILineExap.xib in Resources */,
+				26B0BCF42004AD1300CB7EA4 /* UICheckBoxExap.xib in Resources */,
+				26B0BCF02004ACFF00CB7EA4 /* UIHeadExap.xib in Resources */,
+				26B0BCEC2004ACE800CB7EA4 /* PositionableButtonExap.xib in Resources */,
+				26B0BCE82004ACCA00CB7EA4 /* UIGradientLabelExample.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BCCF2004A42500CB7EA4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,31 +461,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		181DDBE40997217C3195575F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1973D7FE5D189C1C95CA69C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC92AB30B4BA02EDCBB21EF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTMUIControls/Pods-GTMUIControls-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65EFF2436E536267690543A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7874DA490B0A380D2371607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		26B0BC8B2004895A00CB7EA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B0BCB120048E0000CB7EA4 /* UICheckBox.swift in Sources */,
+				26B0BCAF20048D4600CB7EA4 /* PositionableButton.swift in Sources */,
+				26B0BCB92004A24600CB7EA4 /* CustomSwitch.swift in Sources */,
+				26B0BCB52004A18D00CB7EA4 /* UICowButton.swift in Sources */,
+				26B0BCAD20048C7800CB7EA4 /* UIHead.swift in Sources */,
+				26B0BCB32004A11400CB7EA4 /* UIGradientLabel.swift in Sources */,
+				26B0BCB72004A1DB00CB7EA4 /* UILine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26B0BC952004895B00CB7EA4 /* Sources */ = {
+		26B0BCBA2004A42500CB7EA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26B0BC9F2004895B00CB7EA4 /* GTMUIControlsTests.swift in Sources */,
+				26B0BCFF2004AD4900CB7EA4 /* UILineExap.swift in Sources */,
+				26B0BCE72004ACCA00CB7EA4 /* UIGradientLabelExample.swift in Sources */,
+				26B0BCFB2004AD3B00CB7EA4 /* UICowButtonExap.swift in Sources */,
+				26B0BCEF2004ACFF00CB7EA4 /* UIHeadExap.swift in Sources */,
+				26B0BCC32004A42500CB7EA4 /* ViewController.swift in Sources */,
+				26B0BCEB2004ACE800CB7EA4 /* PositionableButtonExap.swift in Sources */,
+				26B0BCF32004AD1300CB7EA4 /* UICheckBoxExap.swift in Sources */,
+				26B0BCF72004AD2A00CB7EA4 /* CustomSwitchExap.swift in Sources */,
+				26B0BCC12004A42500CB7EA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0BCCD2004A42500CB7EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B0BCD62004A42500CB7EA4 /* ExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		26B0BC9C2004895B00CB7EA4 /* PBXTargetDependency */ = {
+		265C7D802006FB6E00D35205 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 26B0BC8F2004895A00CB7EA4 /* GTMUIControls */;
-			targetProxy = 26B0BC9B2004895B00CB7EA4 /* PBXContainerItemProxy */;
+			targetProxy = 265C7D7F2006FB6E00D35205 /* PBXContainerItemProxy */;
+		};
+		26B0BCD32004A42500CB7EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26B0BCBD2004A42500CB7EA4 /* Example */;
+			targetProxy = 26B0BCD22004A42500CB7EA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26B0BCC42004A42500CB7EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B0BCC52004A42500CB7EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26B0BCC92004A42500CB7EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26B0BCCA2004A42500CB7EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		26B0BCA22004895B00CB7EA4 /* Debug */ = {
@@ -267,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +716,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -333,7 +728,9 @@
 		};
 		26B0BCA52004895B00CB7EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A10BA40D67317D72B49BA21 /* Pods-GTMUIControls.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +744,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.LY.GTMUIControls;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,7 +752,9 @@
 		};
 		26B0BCA62004895B00CB7EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCE9D8A2665366B517ACFBE /* Pods-GTMUIControls.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,31 +773,73 @@
 			};
 			name = Release;
 		};
-		26B0BCA82004895B00CB7EA4 /* Debug */ = {
+		26B0BCD92004A42500CB7EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 756859AF4AB0362A0651E48A /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DUPQ924JY;
-				INFOPLIST_FILE = GTMUIControlsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LY.GTMUIControlsTests;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		26B0BCA92004895B00CB7EA4 /* Release */ = {
+		26B0BCDA2004A42500CB7EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB1E7C65B7A40C443628D1F /* Pods-Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DUPQ924JY;
-				INFOPLIST_FILE = GTMUIControlsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.LY.GTMUIControlsTests;
+				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26B0BCDC2004A42500CB7EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DUPQ924JY;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+			};
+			name = Debug;
+		};
+		26B0BCDD2004A42500CB7EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2DUPQ924JY;
+				INFOPLIST_FILE = ExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LY.ExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
 			};
 			name = Release;
 		};
@@ -422,11 +864,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		26B0BCA72004895B00CB7EA4 /* Build configuration list for PBXNativeTarget "GTMUIControlsTests" */ = {
+		26B0BCD82004A42500CB7EA4 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26B0BCA82004895B00CB7EA4 /* Debug */,
-				26B0BCA92004895B00CB7EA4 /* Release */,
+				26B0BCD92004A42500CB7EA4 /* Debug */,
+				26B0BCDA2004A42500CB7EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26B0BCDB2004A42500CB7EA4 /* Build configuration list for PBXNativeTarget "ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B0BCDC2004A42500CB7EA4 /* Debug */,
+				26B0BCDD2004A42500CB7EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

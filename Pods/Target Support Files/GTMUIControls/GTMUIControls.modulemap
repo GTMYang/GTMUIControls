@@ -1,0 +1,6 @@
+framework module GTMUIControls {
+  umbrella header "GTMUIControls-umbrella.h"
+
+  export *
+  module * { export * }
+}

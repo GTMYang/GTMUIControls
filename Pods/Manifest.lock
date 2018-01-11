@@ -1,0 +1,20 @@
+PODS:
+  - GTMUIControls (0.1):
+    - SnapKit
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - GTMUIControls (from `./`)
+  - SnapKit
+
+EXTERNAL SOURCES:
+  GTMUIControls:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  GTMUIControls: 120b9bccbe59cb1bd6cb5b520938f9d69faac30e
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: c60277862026fa0016fd6fea30d1482574c870c7
+
+COCOAPODS: 1.2.0

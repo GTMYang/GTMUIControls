@@ -1,15 +1,15 @@
 //
-//  GTMUIControlsTests.swift
-//  GTMUIControlsTests
+//  ExampleTests.swift
+//  ExampleTests
 //
 //  Created by 骆扬 on 2018/1/9.
 //  Copyright © 2018年 LY. All rights reserved.
 //
 
 import XCTest
-@testable import GTMUIControls
+@testable import Example
 
-class GTMUIControlsTests: XCTestCase {
+class ExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -1,0 +1,6 @@
+framework module Pods_GTMUIControls {
+  umbrella header "Pods-GTMUIControls-umbrella.h"
+
+  export *
+  module * { export * }
+}

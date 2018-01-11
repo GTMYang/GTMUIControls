@@ -40,6 +40,13 @@
 		26B0BCFC2004AD3B00CB7EA4 /* UICowButtonExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCFA2004AD3B00CB7EA4 /* UICowButtonExap.xib */; };
 		26B0BCFF2004AD4900CB7EA4 /* UILineExap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B0BCFD2004AD4900CB7EA4 /* UILineExap.swift */; };
 		26B0BD002004AD4900CB7EA4 /* UILineExap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26B0BCFE2004AD4900CB7EA4 /* UILineExap.xib */; };
+		26B9C1AE20072BD20073AB82 /* UIGradientLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1A720072BD10073AB82 /* UIGradientLabel.png */; };
+		26B9C1AF20072BD20073AB82 /* PositionableButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1A820072BD10073AB82 /* PositionableButton.png */; };
+		26B9C1B020072BD20073AB82 /* UICheckBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1A920072BD10073AB82 /* UICheckBox.png */; };
+		26B9C1B120072BD20073AB82 /* UILine.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1AA20072BD10073AB82 /* UILine.png */; };
+		26B9C1B220072BD20073AB82 /* UIHead.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1AB20072BD20073AB82 /* UIHead.png */; };
+		26B9C1B320072BD20073AB82 /* CustomSwitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1AC20072BD20073AB82 /* CustomSwitch.png */; };
+		26B9C1B420072BD20073AB82 /* UICowButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26B9C1AD20072BD20073AB82 /* UICowButton.png */; };
 		F94BED3B1499DD15E60FAD7A /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD16B97DE2E77217FF99482 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +120,13 @@
 		26B0BCFA2004AD3B00CB7EA4 /* UICowButtonExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UICowButtonExap.xib; sourceTree = "<group>"; };
 		26B0BCFD2004AD4900CB7EA4 /* UILineExap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILineExap.swift; sourceTree = "<group>"; };
 		26B0BCFE2004AD4900CB7EA4 /* UILineExap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UILineExap.xib; sourceTree = "<group>"; };
+		26B9C1A720072BD10073AB82 /* UIGradientLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIGradientLabel.png; sourceTree = "<group>"; };
+		26B9C1A820072BD10073AB82 /* PositionableButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PositionableButton.png; sourceTree = "<group>"; };
+		26B9C1A920072BD10073AB82 /* UICheckBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UICheckBox.png; sourceTree = "<group>"; };
+		26B9C1AA20072BD10073AB82 /* UILine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UILine.png; sourceTree = "<group>"; };
+		26B9C1AB20072BD20073AB82 /* UIHead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIHead.png; sourceTree = "<group>"; };
+		26B9C1AC20072BD20073AB82 /* CustomSwitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CustomSwitch.png; sourceTree = "<group>"; };
+		26B9C1AD20072BD20073AB82 /* UICowButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UICowButton.png; sourceTree = "<group>"; };
 		2A10BA40D67317D72B49BA21 /* Pods-GTMUIControls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTMUIControls.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTMUIControls/Pods-GTMUIControls.debug.xcconfig"; sourceTree = "<group>"; };
 		4FB1E7C65B7A40C443628D1F /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		756859AF4AB0362A0651E48A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +177,7 @@
 		26B0BC862004895A00CB7EA4 = {
 			isa = PBXGroup;
 			children = (
+				26B9C1A6200709440073AB82 /* Screenshots */,
 				265C7D782006F65900D35205 /* GTMUIControls.podspec */,
 				265C7D772006F65900D35205 /* LICENSE */,
 				265C7D792006F65900D35205 /* README.md */,
@@ -292,6 +307,20 @@
 				26B0BCE62004ACCA00CB7EA4 /* UIGradientLabelExample.xib */,
 			);
 			path = UIGradientLabel;
+			sourceTree = "<group>";
+		};
+		26B9C1A6200709440073AB82 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				26B9C1AA20072BD10073AB82 /* UILine.png */,
+				26B9C1AD20072BD20073AB82 /* UICowButton.png */,
+				26B9C1AC20072BD20073AB82 /* CustomSwitch.png */,
+				26B9C1A920072BD10073AB82 /* UICheckBox.png */,
+				26B9C1AB20072BD20073AB82 /* UIHead.png */,
+				26B9C1A820072BD10073AB82 /* PositionableButton.png */,
+				26B9C1A720072BD10073AB82 /* UIGradientLabel.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		A6C404B03BC2272A766A0885 /* Pods */ = {
@@ -429,8 +458,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26B9C1AE20072BD20073AB82 /* UIGradientLabel.png in Resources */,
+				26B9C1B020072BD20073AB82 /* UICheckBox.png in Resources */,
+				26B9C1B420072BD20073AB82 /* UICowButton.png in Resources */,
+				26B9C1AF20072BD20073AB82 /* PositionableButton.png in Resources */,
 				265C7D7C2006F65A00D35205 /* README.md in Resources */,
+				26B9C1B220072BD20073AB82 /* UIHead.png in Resources */,
+				26B9C1B320072BD20073AB82 /* CustomSwitch.png in Resources */,
 				265C7D7A2006F65A00D35205 /* LICENSE in Resources */,
+				26B9C1B120072BD20073AB82 /* UILine.png in Resources */,
 				265C7D7B2006F65A00D35205 /* GTMUIControls.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
